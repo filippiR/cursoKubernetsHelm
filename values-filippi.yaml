@@ -1,0 +1,10 @@
+USER-SUPPLIED VALUES:
+ingress:
+  enabled: true
+  hostname: filippi.grupo3.helm.jacexperts.io
+mariadb:
+  primary:
+    persistence:
+      enabled: false
+persistence:
+  enabled: false
